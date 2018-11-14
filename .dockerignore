@@ -1,0 +1,3 @@
+# Al hacer COPY . en Dockerfile sólo se verá json2orc
+*
+!json2orc

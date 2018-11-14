@@ -1,0 +1,8 @@
+{
+  "features": {
+    "cloud": "v2"
+  },
+  "env": {
+  },
+ "type": "docker"
+}

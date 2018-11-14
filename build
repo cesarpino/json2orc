@@ -1,0 +1,12 @@
+#!/usr/bin/env bash
+# generado inicialmente con comando
+# export APPNAME=json2orc && py2txt ~/dropbox/learning/docker.py | bash 
+    
+# builds docker app image
+docker build -t json2orc .
+    
+# Create a command line app with parameters based on docker
+docker run --rm --env-file .env -v $PWD:/data json2orc
+    
+# Access to a new instance interactively using bash. 
+# docker run --rm -v $PWD:/data -ti --entrypoint /bin/bash json2orc

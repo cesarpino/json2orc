@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+# generado inicialmente con comando
+# export APPNAME=json2orc && py2txt ~/dropbox/learning/docker.py | bash 
+# substitute this with your main script
+echo "Hello world. Docker app json2orc created and running"
